@@ -1,0 +1,36 @@
+{
+	"name": "kiti-store-api",
+	"version": "1.0.0",
+	"description": "A simple rest-api for kiti-store",
+	"main": "server.js",
+	"scripts": {
+		"devStart": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/saratkumar17mss040/kiti-store-api.git"
+	},
+	"keywords": [
+		"rest-api",
+		"kiti-store-api"
+	],
+	"author": "sarath",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/saratkumar17mss040/kiti-store-api/issues"
+	},
+	"homepage": "https://github.com/saratkumar17mss040/kiti-store-api#readme",
+	"devDependencies": {
+		"dotenv": "^8.2.0",
+		"eslint": "^7.24.0",
+		"nodemon": "^2.0.7",
+		"prettier": "^2.2.1"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"lodash": "^4.17.21",
+		"mongoose": "^5.12.4",
+		"mongoose-type-url": "^2.1.0"
+	}
+}
